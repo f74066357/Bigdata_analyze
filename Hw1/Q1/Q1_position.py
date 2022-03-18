@@ -98,3 +98,4 @@ ax.set_axis_off()
 plt.savefig("spatial density plot of the pickup and dropoff locations")
 
 '''
+print(loc_df['label'].value_counts())
